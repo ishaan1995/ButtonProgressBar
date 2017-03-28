@@ -1,5 +1,8 @@
 # ButtonProgressBar
 [![](https://jitpack.io/v/ishaan1995/ButtonProgressBar.svg)](https://jitpack.io/#ishaan1995/ButtonProgressBar)
+
+![](https://raw.githubusercontent.com/ishaan1995/ButtonProgressBar/master/output_F2Ryon.gif "Concept Animation")
+
 ## To get this Git project into your build:
 #### 1.Add this in your root build.gradle at the end of repositories:
 
