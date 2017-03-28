@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ButtonProgressBar">
+        <attr name="bgColor" format="color" />
+        <attr name="progColor" format="color" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="text" format="string" />
+        <attr name="type" format="enum">
+            <enum name="determinate" value="0" />
+            <enum name="indeterminate" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

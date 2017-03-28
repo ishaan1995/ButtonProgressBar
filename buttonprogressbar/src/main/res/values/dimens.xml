@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="text_size_default">16sp</dimen>
+    <dimen name="default_width">150dp</dimen>
+    <dimen name="default_height">50dp</dimen>
+</resources>
