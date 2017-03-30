@@ -1,5 +1,6 @@
 # ButtonProgressBar
 [![](https://jitpack.io/v/ishaan1995/ButtonProgressBar.svg)](https://jitpack.io/#ishaan1995/ButtonProgressBar)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ButtonProgressBar-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5482)
 
 ![](https://raw.githubusercontent.com/ishaan1995/ButtonProgressBar/master/output_F2Ryon.gif "Concept Animation")
 
