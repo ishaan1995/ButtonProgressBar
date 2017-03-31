@@ -52,7 +52,7 @@ final ButtonProgressBar bar = (ButtonProgressBar) findViewById(R.id.bpb_main);
         });
 ```
 
-Inspiration from [Dribble](https://dribbble.com/shots/2551579-Download-Button)
+Inspiration from [Dribbble](https://dribbble.com/shots/2551579-Download-Button)
 
 License
 =======
