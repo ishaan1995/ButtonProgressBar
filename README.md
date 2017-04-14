@@ -54,6 +54,8 @@ final ButtonProgressBar bar = (ButtonProgressBar) findViewById(R.id.bpb_main);
 
 Inspiration from [Dribbble](https://dribbble.com/shots/2551579-Download-Button)
 
+[iOS version](https://github.com/thePsguy/ButtonProgressBar-iOS) available!
+
 License
 =======
 
