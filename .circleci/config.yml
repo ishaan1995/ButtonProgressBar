@@ -24,8 +24,3 @@ jobs:
       - run:
           name: Build Project
           command: ./gradlew build
-      - store_artifacts:
-          path: app/build/reports
-          destination: reports
-      - store_test_results:
-path: app/build/test-results
