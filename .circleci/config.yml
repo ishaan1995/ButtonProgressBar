@@ -13,8 +13,8 @@ jobs:
           key: jars-{{ checksum "build.gradle" }}-{{ checksum "app/build.gradle" }}
        #This downloads all the dependencies specified in the build gradle file from jcenter(), google() you name it
       - run:
-          name: Download Dependencies
-          command: ./gradlew androidDependencies
+          name: Export TERM and Download Dependencies
+          command: export TERM=xterm && ./gradlew androidDepedencies
        #Caching can significantly decrease the build time and reduce the limited build time credits from exhaustion
       - save_cache:
           paths:
