@@ -14,7 +14,7 @@ jobs:
        #This downloads all the dependencies specified in the build gradle file from jcenter(), google() you name it
       - run:
           name: Export TERM and Download Dependencies
-          command: export TERM=xterm && ./gradlew androidDepedencies
+          command: export TERM=xterm && ./gradlew androidDependencies
        #Caching can significantly decrease the build time and reduce the limited build time credits from exhaustion
       - save_cache:
           paths:
