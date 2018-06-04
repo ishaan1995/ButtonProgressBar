@@ -2,7 +2,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/repo
+    working_directory: ~/project
     docker:
       - image: circleci/android:api-25-alpha
     environment:
@@ -13,8 +13,8 @@ jobs:
           key: jars-{{ checksum "build.gradle" }}-{{ checksum "app/build.gradle" }}
        #This downloads all the dependencies specified in the build gradle file from jcenter(), google() you name it
       - run:
-          name: Download Dependencies
-          command: ./gradlew androidDependencies
+          name: Export TERM and Download Dependencies
+          command: export TERM=xterm && ./gradlew androidDependencies
        #Caching can significantly decrease the build time and reduce the limited build time credits from exhaustion
       - save_cache:
           paths:
@@ -23,4 +23,4 @@ jobs:
         #This runs all the Unit Test
       - run:
           name: Build Project
-          command: ./gradlew build
+          command: export TERM=xterm && ./gradlew build
